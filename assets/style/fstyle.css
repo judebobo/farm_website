@@ -11,7 +11,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
     header {
-        background: url(background_header.jpg);
+        background: url(../img/background_header.jpg);
         width: 100%;
         color: yellowgreen;
     }
@@ -122,7 +122,7 @@
         margin-bottom: 50px;
     }
     .final_section {
-        background: url(family2.jpg);
+        background: url(../img/family2.jpg);
         background-size: 100%;
         width: 100%;
         height: 600px;
@@ -177,7 +177,7 @@
     }
     footer {
         width: 100%;
-        background: url(background_header.jpg) ;
+        background: url(../img/background_header.jpg) ;
     }
     .left_footer {
         color: yellowgreen;
