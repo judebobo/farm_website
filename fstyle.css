@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+#container {
+    margin: 0 auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    header {
+        background: url(background_header.jpg);
+        width: 100%;
+        color: yellowgreen;
+    }
+    #left_header {
+        padding: 30px 0px;
+        float: left;
+        margin-left: 30px;
+    }
+    #right_header {
+        float: right;
+    }
+    #right_header ul {
+        list-style-type: none;
+    }
+    #right_header ul li {
+        float: left;
+        padding: 37px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0 2px;
+    }
+    #right_header a {
+        color: white;
+    }
+    #right_header ul li:hover {
+        background: yellowgreen;
+    }
+    .main_img {
+        width: 100%;
+        height: 100%;
+    }
+    .first_section {
+        padding: 0 5%;
+    }
+    .first_section h2 {
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+        color: yellowgreen;
+        text-shadow: 0 0 5px black;
+    }
+    .description {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .second_section h2 {
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+        color: yellowgreen;
+        text-shadow: 0 0 5px black;
+    }
+    .title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: inherit;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .subabout_us {
+        text-align: right;
+        font-style: italic;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    .third_section h2 {
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+        color: yellowgreen;
+        text-shadow: 0 0 5px black;
+    }
+    article {
+        width: 23%;
+        margin: 20px 1% 20px 0;
+        float: left;
+        color: ghostwhite;
+        text-shadow: 0 0 5px black;
+    }
+    .margin_left {
+        margin-left: 3%;
+    }
+    .margin_right {
+        margin-right: 0;
+    }
+    .article_title {
+        text-align: center;
+        font-size: 30px;
+        margin: 20px;
+        font-weight: bold;
+    }
+    .button input {
+        color: white;
+        background: yellowgreen;
+        width: 50%;
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid white;
+        font-size: 20px;
+        margin-left: 75px;
+        text-align: center;
+        font-weight: 600;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .final_section {
+        background: url(family2.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 600px;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+    .final_section h2 {
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+        color: yellowgreen;
+        text-shadow: 0 0 5px black;
+    }
+    .form-group {
+        background: transparent;
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .form-group label {
+        text-align: center;
+        font-size: 20px;
+    }
+    .form-group input{
+        width: 100% ;
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: inset 0 0 10px silver, 0 0 0 lightgreen;
+        border: 1px solid gray;
+        outline: none;
+        margin-top: 5px;
+        transition: box-shadow 1s;
+    }
+    .form-group input:focus {
+        box-shadow: inset 0 0 0 silver, 0 0 10px lightgreen;
+    }
+    .form-group_button input {
+        color: white;
+        background: yellowgreen;
+        width: 460px;
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid silver;
+        font-size: 20px;
+        margin-left: 445px;
+        margin-top: 50px;
+        text-align: center;
+        font-weight: 600;
+        padding: 10px;   
+    }
+    footer {
+        width: 100%;
+        background: url(background_header.jpg) ;
+    }
+    .left_footer {
+        color: yellowgreen;
+        padding: 20px;
+        float: left;
+    }
+    .right_footer {
+        padding: 20px;
+        float: right;
+    }
+    .right_footer ul {
+        list-style-type: none;
+    }
+    .right_footer ul li {
+        float: left;
+        padding: 0 20px;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+    .right_footer ul li:hover {
+        color: yellowgreen;
+    }
